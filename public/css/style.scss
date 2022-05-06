@@ -220,8 +220,8 @@ nav{
 footer{
 
     background-color: $bg !important;
-    position: fixed;
-    bottom: 0;
+    // position: fixed;
+    // bottom: 0;
 
 }
 @keyframes rot {
@@ -239,6 +239,17 @@ footer{
     }
     .tempInfo{
         width: auto;
+        .main_layer{
+            .middle_layer{
+                .temp{
+                    font-size:1rem;
+
+                }
+                .temp_status{
+                    font-size:2rem;
+                }
+            }
+        }
     }
     .header_left{
         height:43vh;
